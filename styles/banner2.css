@@ -1,0 +1,74 @@
+.banner2{
+    background: var(--branco);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0.625em;
+    margin: 1em;
+}
+.conteiner__banner2{
+    align-items: center;
+    padding:1em;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+   
+}
+.conteiner__inferior{
+    padding: 0.05em 0 1em 0.7em;
+}
+.banner2__titulo__laranja{
+    color: var(--laranja--item);
+    font-weight: 700;
+    font-size:1em;
+    margin-bottom: 1em;
+}
+.banner2__titulo__azul{
+    color: var(--azul-degrade);
+    font-weight: 700;
+    font-size:1.2em;
+}
+.banner2__texto{
+    margin-top: 0.8em;
+    font-size: 0.87em;
+    font-weight: 400;
+}
+.banner2__item{
+    margin: 0.4em;
+}
+.div__saibamais{
+    padding: 0 1em 0 0;
+    
+}
+.saibamais{
+    text-decoration: none;
+    color: var(--branco);
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    padding: 0.8em 2.23em;
+    background-color: var(--laranja--item);
+}
+@media screen and (min-width: 1024px) {
+    .banner2{
+        width: 55%;
+        margin: 2em auto;
+    }
+    .banner2__titulo__azul{
+        font-size: 1.12em;
+    }
+    .banner2__texto{
+        font-size: 1em;
+        padding-top: 0.4em;
+        margin: 0 3em 0 0;
+    }
+    .banner2__item{
+        margin: 1em;
+    }
+}
+@media screen and (min-width: 1728px){
+    .banner2{
+        width: 80%;
+        top: 80%;
+        padding: 1em;
+        
+    }
+}

@@ -1,0 +1,24 @@
+@import url(./header.css);
+@import url(./banner.css);
+@import url(./rolagem.css);
+@import url(./banner2.css);
+@import url(./banner3.css);
+@import url(./topicos.css);
+@import url(./contatosemailefooter.css);
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Poppins:ital,wght@0,300;0,400;0,700;1,500&display=swap');
+:root{
+    --branco:#ffffff;
+    --font--poppins:'Poppins', sans-serif;
+    --azul-degrade:rgba(0, 47, 82, 1);
+    --cor-de-fundo:#EBECEE;
+    --laranja--item: rgba(235, 155, 0, 1);
+    --fonth1: "Josefin Sans";
+    --preto: #000000;
+    --corrodape: rgba(133, 133, 133, 1);
+}
+body{
+    font-size: 16px;
+    font-family: var(--font--poppins);
+    font-weight: 400;
+    background-color: var(--cor-de-fundo);
+}

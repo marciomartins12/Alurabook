@@ -1,0 +1,55 @@
+.titulo__rolagem{
+    color: var(--laranja--item);
+    font-weight: 700;
+    font-size: 1.12em;
+    background-color: var(--branco);
+    text-transform:uppercase;
+    text-align:center;
+    padding: 1em 0 0.5em 0;
+}
+.swiper-slide img{
+    width:100%;
+}
+.swiper-button-prev,
+.swiper-button-next,
+.swiper-scrollbar{
+    display: none;
+}
+.swiper-pagination{
+    position: initial;
+    margin: 0.3em;
+    
+}
+@media screen and (min-width: 1024px) {
+    
+    .titulo__rolagem{
+        padding: 1.9em 0 0.8em 0;
+        font-size: 1.8em;
+    }
+    .swiper{
+        width: 70%;
+
+    }
+    .swiper-pagination{
+        margin: 0 0 3em 0;
+    }
+    .swiper-button-prev,
+    .swiper-button-next{
+    display: block;
+    top: 55%;
+    }
+   
+}
+@media screen and (min-width: 1728px){
+    .rolagem_e_banner1{
+        display:grid;
+        grid-template-columns: 50% 50%;
+        margin: 0 auto 3em auto;
+       align-items: center;
+    }
+    .swiper{
+        width: 90%;
+        
+        margin: 0 auto 4em 5em;
+    }
+}

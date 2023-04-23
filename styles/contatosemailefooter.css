@@ -1,0 +1,111 @@
+.contatos{
+    margin: 1em;
+}
+.contatos__titulo{
+    font-weight: 700;
+    font-size: 1.12em;
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.contatos__texto{
+    margin: 0.5em 0;
+    font-weight: 300;
+}
+.contatos__email{
+    border: 1px solid var(--azul-degrade);
+    border-radius: 10px;
+    padding: 0.5em;
+    width: 80%;
+    color: var(--azul-degrade);
+}
+.contatos__email::placeholder{
+    background: url(../img/email.svg);
+    background-repeat: no-repeat;
+    padding-left: 2em;
+}
+hr{
+    margin:0;
+}
+.rodape{
+    padding: 1em;
+}
+.colunas__rodape__links{
+    display: none;
+}
+@media screen and (min-width:1024px){
+    .colunas__rodape__links{
+        display: block;
+    }
+    .contatos{
+        padding: 2em;
+    }
+    .rodapeflex{
+        display: flex;
+        padding-left: 9em;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .contatos__email::placeholder{
+        border-radius: 0.87em;
+    }
+    .contatos__titulo{
+        font-size: 1.5em;
+    }
+    .contatos__email{
+        width: 30%;
+        margin-left: 1em;
+        margin-right: 7em;
+    }
+    .rodapelista{
+        display: flex;
+        justify-content: space-between;
+        margin: 1em;
+        padding: 2em;
+        
+    }
+    .rodape__titulo{
+        font-size: 1.5em;
+        font-weight: 400;
+    }
+    .colunas__rodape__links{
+        font-size: 0.87em;
+       
+    }
+    
+    .lista__item__rodape__li{
+        align-items: center;
+        display: flex;
+        padding: 1em;
+        gap: 0.4em;
+        margin-left: 3em;
+    }
+    .titulos__rodape{
+        text-transform: uppercase;
+        text-align: center;
+        color: var(--corrodape);
+        padding: 1em;
+    }
+}
+@media screen and (min-width: 1728px){
+    .rodapeflex{
+        display: flex;
+        justify-content: space-between;
+        padding: 3em;
+        
+    }
+    .contatos__email{
+        width: 20%;
+        margin-right: auto;
+        margin-left: 3em;
+    }
+    .flexrodape{
+        margin-left: auto;
+    }
+    .lista__item__rodape__li{
+        border-left: 1px solid var(--corrodape);
+    }
+
+}
